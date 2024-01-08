@@ -1,2 +1,2 @@
-# Printing the First Program.
+# Printing the Hello World Program.
 print ('Hello World')
