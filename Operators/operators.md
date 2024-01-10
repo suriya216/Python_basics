@@ -17,7 +17,6 @@ power = X ** Y    # Power of two numbers
 ```
 
 - **Comparison (Relational) Operators**
-- 
 
 ```python
 x, y = 5, 10
