@@ -30,6 +30,45 @@ print(x >= y)   #False
 ```
 
 - **Logical Operators**
+
+```python
+isHot = True
+isSweet = True
+if isHot and isSweet:
+    print("It's a tea!")
+elif not(isHot) and isSweet:
+    print("It's a juice!")
+else:
+    print("It's a soup!")
+#As same for OR operator.
+```
+
 - **Assignment Operators**
+
+```python
+a = 3
+b = 5
+a += b    # a = a + b
+print(a)
+#Same for '-=', '*=', '/=', '%=' etc.
+```
+
 - **Identity Operators**
+
+```python
+a = 3
+b = 2
+print(a is b)   #False
+print(a is not b)   #True
+#If the values same it returns true, else false.
+```
+
 - **Membership Operators**
+
+```python
+a = "SURIYA"
+print("S" in a) #True
+print("Z" in a) #False
+#If the sequence specified present 
+#in the value returns True, otherwise False.
+```
