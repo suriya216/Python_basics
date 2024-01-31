@@ -1,11 +1,20 @@
 # List
 
+Lists are used to store multiple items in single variable.
+
+The multiple items stored in list are placed inside square brackets `[]` .
+
 ```python
+mylist=[1,2,3,4]
+print(mylist)
+#[1, 2, 3, 4]
 ```
+
 This list items can be accessed by the index values.
 
 ```python
-mylist=[1print(mylist[2])
+mylist=[1,2,3,4]
+print(mylist[2])
 #3
 ```
 
@@ -26,15 +35,15 @@ We can access the type of list by using `type()` function.
 ```python
 mylist=[1,2,3,4]
 print(type(mylist))
-#<class list>
+#<class 'list'>
 ```
 
 List can hold multiple datatypes in a single list.
 
 ```python
-mylist=[1,"apple",True,a]
+mylist=[1,"apple",True,'a']
 print(mylist)
-#[1, apple, True, a]
+#[1, 'apple', True, 'a']
 ```
 
 ### The list() Constructor
