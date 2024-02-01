@@ -50,10 +50,6 @@ print(mylist)
 
 This constructor is responsible to create new list.
 
-It can be represented by square brackets inside a square bracket
-
-`[[]]` .
-
 ```python
 mylist=list((1, 2, 3, 4))
 print(mylist)
@@ -63,6 +59,10 @@ print(mylist)
 ### 2D List
 
 A list within another list is called as 2-Dimensional List
+
+It can be represented by square brackets inside a square bracket
+
+`[[]]` .
 
 ```python
 mylist=[[1, 2, 3, 4],[5, 6, 7, 8]]
